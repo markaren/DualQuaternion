@@ -1,0 +1,2 @@
+# DualQuaternion
+DualQuaternion implementation
