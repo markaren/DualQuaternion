@@ -88,7 +88,7 @@ public class DualQuaternion {
 
     public DualQuaternion normalize() {
 
-        double mag = real.dot(real);
+        double mag = Math.sqrt(real.dot(real));
 
         this.real.multiplyScalar(1.0 / mag);
         this.dual.multiplyScalar(1.0 / mag);
